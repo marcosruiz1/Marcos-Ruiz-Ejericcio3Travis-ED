@@ -3,13 +3,9 @@ var suma = function suma (a, b) {
 	return a + b;	
 }; 
 
-let resta = function resta(a,b)
-{
-	return a-b;
-};
+
 
 /* Exportación de funciones */
 module.exports = {
-	suma,
-	resta
+	suma
 }
