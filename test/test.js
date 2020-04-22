@@ -13,3 +13,11 @@ it('comprobar función suma', function() {
 	assert.equal(func.suma(8,-3), 5);
 });
 
+
+// Test
+it('comprobar función resta', function() {
+	assert.equal(func.resta(1,3), 5);
+	assert.equal(func.resta(-1,3), 2);
+	assert.equal(func.resta(8,-3), 5);
+});
+
