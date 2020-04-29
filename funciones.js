@@ -1,11 +1,12 @@
-/* Función suma */
-var suma = function suma (a, b) {
-	return a + b;	
+/* Función comprobarNombre */
+function comprobarNombre (cadena) {
+	cadena.split("\n")
+	return cadena[2];
 }; 
 
 
 
 /* Exportación de funciones */
 module.exports = {
-	suma
+	comprobarNombre
 }

@@ -7,9 +7,9 @@ var assert = require('assert');
 var func = require('../funciones.js');
 
 // Test
-it('comprobar función suma', function() {
-	assert.equal(func.suma(1,3), 5);
-	assert.equal(func.suma(-1,3), 2);
-	assert.equal(func.suma(8,-3), 5);
+it('comprobar función comprobarNombre', function() {
+	assert.equal(func.comprobarNombre("Marcos\nLuis\nPedro"),"Marcos");
+	assert.equal(func.comprobarNombre("Juan\nLuis\Marcos"),"Marcos");
+	assert.equal(func.comprobarNombre("Marcos\Marcos\Sara"),"Marcos");
 });
 
