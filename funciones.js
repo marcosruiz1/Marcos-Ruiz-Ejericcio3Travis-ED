@@ -1,8 +1,8 @@
 /* Función comprobarNombre */
 function comprobarNombre () {
 	let cadena = "Pepe\nJuan\nMarcos";
-	cadena.split("\n")
-	return cadena[2];
+	let trozos = cadena.split("\n")
+	return trozos[2];
 }; 
 
 
